@@ -12,6 +12,19 @@ import java.awt.Point;
  */
 public class Pie {
 	
+	
+	
+	/* (non-Javadoc)
+	 * @see java.lang.Object#toString()
+	 */
+	@Override
+	public String toString() {
+		return "Pie [radius=" + radius + ", baseColor=" + baseColor
+				+ ", sliceColor=" + sliceColor + ", sliceAngle=" + sliceAngle
+				+ ", center=" + center + "]";
+	}
+
+
 	/**
 	 * The size of the pie
 	 */
@@ -45,7 +58,7 @@ public class Pie {
 		radius = 20;
 		center = new Point(20,20);
 		sliceAngle = 0;
-		baseColor = Color.CYAN;
+		baseColor = Color.red;
 		sliceColor = Color.green;
 	}
 	
@@ -55,7 +68,7 @@ public class Pie {
 	 * 
 	 * @param g the graphics device on which to draw
 	 */
-	public void draw2 (Graphics2D g)
+	public void draw (Graphics2D g)
 	{
 		g.setColor(baseColor);
 		g.fillOval(center.x-radius, center.y-radius, 2*radius, 2*radius);

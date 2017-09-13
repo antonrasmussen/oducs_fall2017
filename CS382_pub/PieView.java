@@ -36,12 +36,10 @@ public class PieView extends javax.swing.JPanel {
 		pie = new Pie();
 		addMouseMotionListener(new MouseMotionListener() {
 			
-			@Override
 			public void mouseMoved(MouseEvent e) {
 				trackMouse (e.getX(), e.getY());
 			}
 			
-			@Override
 			public void mouseDragged(MouseEvent e) {
 			}
 		});
@@ -67,7 +65,7 @@ public class PieView extends javax.swing.JPanel {
 		else
 			y = (d.height - d.width) / 2;
 		pie.center = new Point(x+pie.radius,y+pie.radius);
-		pie.draw2 ((Graphics2D)g);
+		pie.draw ((Graphics2D)g);
 	}
 	
 	/**

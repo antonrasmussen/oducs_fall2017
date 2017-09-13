@@ -69,7 +69,7 @@ public class PieSlicer extends JFrame implements ActionListener {
 		});
 	}
 
-	@Override
+	
 	/**
 	 * Respond to the pressing of a color selection button.
 	 */
