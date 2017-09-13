@@ -1,0 +1,3 @@
+#tshark -i eth0 -c 1000 -w test.pcap
+
+#tshark -i eth0 -f  “src port 53" -n -T fields -e dns.qry.name -e dns.a
