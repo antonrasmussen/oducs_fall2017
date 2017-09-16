@@ -1,0 +1,13 @@
+A digital forensics lab is where you conduct investigations, store evidence, and do most of your work. You use the lab to house your instruments, current and legacy software, and forensic workstations. In general, you need a variety of digital forensics hardware and software.
+
+To continue a career in digital investigations and forensics analysis, you need to upgrade your skills through training. Several organizations offer training and certification programs for digital forensics that test you after you have successfully completed training. Some state and federal government agencies are also considering establishing certification programs that address minimum skills needed to conduct digital investigations at different levels.
+
+Your lab facility must be physically secure so that evidence is not lost, corrupted, or destroyed.
+
+Police departments in major cities need a wide assortment of computing systems, including older, outdated technology. 
+Most digital investigations in small, local police departments involve Windows PCs and Macintosh systems. As a general rule, there should be at least one law enforcement digital investigator for every 250,000 people in a geographic region. 
+Commercial services providing forensics analysis for other businesses can tailor their services to specific markets.
+
+A forensic workstation needs to have adequate memory, storage, and ports to deal with the common types of cases that come through your lab.
+
+Before you can set up a digital forensics lab, you must enlist the support of your managers and other team members by building a business case, a plan you can use to sell your services to management or clients. In the business case, you justify acquiring newer and better resources to investigate digital forensics cases.
