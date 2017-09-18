@@ -1,0 +1,17 @@
+Important things to remember for aquring evidence -- first time probably won't go right
+
+stay current on rel legislation
+
+Decide where evidence is located, direct investigation that way
+
+Try not to alter data source
+
+Evidence presented is derived from data on source drive
+
+Perform analysis on copy, not original--make more than one copy usually, hashes should be the same
+
+Document actions
+
+Note: If you don't write it down, you cannot verify that you did something or how you did it. If your notes have errors or omissions, it calls your entire report into question.
+
+
