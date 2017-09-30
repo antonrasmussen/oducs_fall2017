@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OSFCase>
+    <!--OSForensics Case File-->
+    <OSFVersionInfo MajorVersion="5" MinorVersion="1" Build="1003" />
+    <CaseName>InChap05</CaseName>
+    <InvestigatorName></InvestigatorName>
+    <Organization></Organization>
+    <ContactDetails></ContactDetails>
+    <TimeZone Bias="0" UseLocal="1" />
+    <CreationDate TimeZone="UTC" Year="2017" Month="9" Day="28" Hour="17" Minute="6" Second="28" />
+    <DefaultDrive>C</DefaultDrive>
+    <AcquisitionType Value="2" />
+    <DefaultDriveDetails>C:\ [Local]</DefaultDriveDetails>
+    <ReportLocation>C:\Users\antonrasmussen\Desktop\oducs_fall2017\CYSE407_pub\work\Chap05</ReportLocation>
+    <LogoPaths>
+        <Logo0></Logo0>
+        <Logo1></Logo1>
+        <Logo2></Logo2>
+    </LogoPaths>
+    <Narrative>&lt;DIV&gt;&lt;FONT size=4&gt;&lt;B&gt;CASE SUMMARY&lt;/B&gt;&lt;/FONT&gt;&lt;/DIV&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;DIV&gt;&lt;FONT size=4&gt;&lt;B&gt;RESULTS OF FORENSIC ANALYSIS&lt;/B&gt;&lt;/FONT&gt;&lt;/DIV&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;DIV&gt;&lt;FONT size=4&gt;&lt;B&gt;EXECUTIVE OVERVIEW&lt;/B&gt;&lt;/FONT&gt;&lt;/DIV&gt;</Narrative>
+    <LoggingEnabled Value="0" />
+    <Offense></Offense>
+    <AnalysisReqBy></AnalysisReqBy>
+    <SuspectName></SuspectName>
+    <LocOfSeizure></LocOfSeizure>
+    <LegalAuthority></LegalAuthority>
+    <SummaryOfJob></SummaryOfJob>
+    <SeizedDate TimeZone="UTC" Year="0" Month="0" Day="0" Hour="0" Minute="0" Second="0" />
+    <EvidenceItems />
+</OSFCase>

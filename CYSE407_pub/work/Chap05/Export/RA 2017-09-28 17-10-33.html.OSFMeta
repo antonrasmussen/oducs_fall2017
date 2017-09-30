@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OSFCaseMetaInfo Type="Basic">
+    <!--OSForensics Case Meta Info File-->
+    <OSFVersionInfo MajorVersion="5" MinorVersion="1" Build="1003" />
+    <Title>Outlook e-mail address for Denise Robinson</Title>
+    <Notes></Notes>
+    <FileName>RA 2017-09-28 17-10-33.html</FileName>
+    <Module>Registry Viewer</Module>
+    <AddedToCase TimeZone="UTC" Year="2017" Month="9" Day="28" Hour="17" Minute="10" Second="33" />
+    <SHA1>834C457E6CEAD1090A791B2142530D0EBC2ECA8D</SHA1>
+    <SHA256>CE35FBE9C27FF5639EEE96549E8BCD738C6972E2234AD19365288467A6051765</SHA256>
+    <MD5>6CCC0E4341E2FE065694D9CAC4749CFF</MD5>
+</OSFCaseMetaInfo>

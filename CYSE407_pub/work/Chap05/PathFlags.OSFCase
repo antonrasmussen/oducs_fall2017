@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OSFPathFlags>
+    <!--OSforensics Path Flags File-->
+    <OSFVersionInfo MajorVersion="5" MinorVersion="1" Build="1003" />
+    <Path Path="C:\Users\antonrasmussen\Desktop\oducs_fall2017\CYSE407_pub\work\Chap05\Case Report\Report.html">
+        <Viewed>
+            <Date>131510923865660000</Date>
+            <Module>Case Manager</Module>
+        </Viewed>
+    </Path>
+</OSFPathFlags>

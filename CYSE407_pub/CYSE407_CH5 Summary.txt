@@ -1,0 +1,75 @@
+When booting a suspect's computer, using boot media, such as forensic boot CDs or USB drives, is important to ensure that disk evidence isn't altered. You should access a suspect computer's BIOS to configure the computer to boot to these CDs or USB drives.
+
+The Master Boot Record (MBR) stores information about partitions on a disk.
+
+Microsoft used FAT12 and FAT16 on older operating systems, such as MS-DOS, Windows 3.x, and Windows 9x. The maximum partition size is 2 GB. Newer systems use FAT32. FAT12 is now used mainly on floppy disks and small USB drives. VFAT, created for Windows 95, allows filenames longer than eight characters.
+
+To find a hard disk's capacity, use the cylinders, heads, and sectors (CHS) calculation. To find a disk's byte capacity, multiply the number of heads, cylinders, and sectors.
+
+Sectors are grouped into clusters and clusters are chained because the OS can track only a given number of allocation units (65,536 in FAT16 and 4,294,967,296 in FAT32).
+
+Solid-state disk drives use wear-leveling to ensure even use of memory cells. It transfers data to unused memory cells so that all cells have an equal amount of reads and writes. The previously assigned memory cells are listed as unallocated space. After a predetermined time, the unallocated memory cells are overwritten with binary 1s.
+
+When files are deleted in a FAT file system, the hexadecimal value 0x05 is inserted in the first character of the filename in the directory.
+
+NTFS is more versatile because it uses the Master File Table (MFT) to track file information. Approximately the first 512 bytes of data for small files (called resident files) are stored in the MFT. Data for larger files (called nonresident files) is stored outside the MFT and linked by using cluster addresses.
+
+Records in the MFT contain attribute IDs that store metadata about files.
+
+In NTFS, alternate data streams can obscure information that might be of evidentiary value to an investigation.
+
+File slack, RAM slack (in older Windows OSs), and drive slack are areas in which valuable information, such as downloaded files, swap files, passwords, and logon IDs, can reside on a drive.
+
+NTFS can encrypt data with Encrypting File System (EFS) and BitLocker. Decrypting data with these methods requires using recovery certificates. BitLocker is Microsoft's whole disk encryption (WDE) utility that can be decrypted by using a one-time passphrase.
+
+The Resilient File System (ReFS), available only in Windows 8 and Windows Server 2012, provides access to large disk storage systems.
+
+With a hexadecimal editor, you can determine information such as file type and OS configurations.
+
+NTFS can compress files, folders, or an entire volume. FAT16 can compress only entire volumes.
+
+The Registry in Windows keeps a record of attached hardware, user preferences, network connections, and installed software. It also contains information such as passwords in two binary files: System.dat and User.dat.
+
+Every user with an account on a Windows computer has his or her own Ntuser.dat file. Windows 9x user information is stored in User.dat.
+
+Virtualization software enables you to run other OSs on a host computer. Virtual machines are beneficial if, for example, you need to run a previous OS to test old software that won't run on newer OSs.
+
+The Master Boot Record (MBR) stores information about partitions on a disk.
+
+Microsoft used FAT12 and FAT16 on older operating systems, such as MS-DOS, Windows 3.x, and Windows 9x. The maximum partition size is 2 GB. Newer systems use FAT32. FAT12 is now used mainly on floppy disks and small USB drives. VFAT, created for Windows 95, allows filenames longer than eight characters.
+
+To find a hard disk’s capacity, use the cylinders, heads, and sectors (CHS) calculation.
+
+To find a disk’s byte capacity, multiply the number of heads, cylinders, and sectors.
+
+Sectors are grouped into clusters and clusters are chained because the OS can track only a given number of allocation units (65,536 in FAT16 and 4,294,967,296 in FAT32).
+
+Solid-state disk drives use wear-leveling to ensure even use of memory cells. It transfers data to unused memory cells so that all cells have an equal amount of reads and writes.
+
+The previously assigned memory cells are listed as unallocated space. After a predetermined time, the unallocated memory cells are overwritten with binary 1s.
+
+When files are deleted in a FAT file system, the hexadecimal value 0x05 is inserted in the first character of the filename in the directory.
+
+NTFS is more versatile because it uses the Master File Table (MFT) to track file information.
+
+Approximately the first 512 bytes of data for small files (called resident files) are stored in the MFT. Data for larger files (called nonresident files) is stored outside the MFT and linked by using cluster addresses.
+
+Records in the MFT contain attribute IDs that store metadata about files.
+
+In NTFS, alternate data streams can obscure information that might be of evidentiary value to an investigation.
+
+File slack, RAM slack (in older Windows OSs), and drive slack are areas in which valuable information, such as downloaded files, swap files, passwords, and logon IDs, can reside on a drive.
+
+NTFS can encrypt data with Encrypting File System (EFS) and BitLocker. Decrypting data with these methods requires using recovery certificates. BitLocker is Microsoft’s whole disk encryption (WDE) utility that can be decrypted by using a one-time passphrase.
+
+The Resilient File System (ReFS), available only in Windows 8 and Windows Server 2012, provides access to large disk storage systems.
+
+With a hexadecimal editor, you can determine information such as file type and OS configurations.
+
+NTFS can compress files, folders, or an entire volume. FAT16 can compress only entire volumes.
+
+The Registry in Windows keeps a record of attached hardware, user preferences, network connections, and installed software. It also contains information such as passwords in two binary files: System.dat and User.dat.
+
+Every user with an account on a Windows computer has his or her own Ntuser.dat file. Windows 9x user information is stored in User.dat.
+
+Virtualization software enables you to run other OSs on a host computer. Virtual machines are beneficial if, for example, you need to run a previous OS to test old software that won’t run on newer OSs.
