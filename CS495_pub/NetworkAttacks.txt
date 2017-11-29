@@ -1,0 +1,12 @@
+Network Attacks
+
+Browser (> 30%)
+Brute force
+Denial of Service
+SSL
+Scan
+DNS
+Backdoor
+Others
+
+
