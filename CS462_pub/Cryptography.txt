@@ -1,0 +1,46 @@
+
+    What is confidentiality?
+
+
+    What is message integrity?
+
+
+    What is authentication?
+    What is non-repudiation?
+    What is plaintext?
+    What is a cipher?
+    What is ciphertext?
+    What is a key?
+
+
+--
+
+
+    What information would an intruder need to perpetrate a ciphertext-only attack?  a known-plaintext attack?  a chosen-plaintext attack?
+    What is the difference between a block cipher and a stream cipher?
+    What are the two most-commonly used block ciphers?
+    How long would it take to brute-force 128-bit AES with the same machine that could crack 56-bit DES in one second?
+    What is the difference between the key size and the block size?  What are their purposes?
+    Why is 3DES is stronger than DES?
+    What key sizes can be used in AES?
+    Which of the symmetric key ciphers is the US government standard?
+    What are two public domain (non-patented) symmetric ciphers?
+    Why might we need to mix randomness into the ciphertext?
+    What is cipher block chaining (CBC)?
+    What is the initialization vector (IV)?
+
+--
+
+
+    What is the main difference between symmetric and asymmetric encryption?
+    If asymmetric encryption is more secure than symmetric encryption, why do people still use symmetric encryption?
+    How many keys are used in public-key cryptography, or asymmetric encryption?
+    How can public-key cryptography be used for confidentiality?
+    How can public-key cryptography be used for authentication?
+    What is one way that public-key cryptography can be used in conjunction with symmetric key cryptography?
+
+
+--
+
+
+
