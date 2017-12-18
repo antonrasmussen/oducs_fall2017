@@ -1,0 +1,57 @@
+<div class="questions">
+
+What is the purpose of NAT?
+What does the NAT translation table contain?
+Why does NAT need to modify the IP header?
+Why does NAT need to modify the transport layer (TCP or UDP) header?
+Name one objection or problem with NAT.
+
+--
+
+What is a firewall?
+What are the three goals of a firewall?
+What are the three main types of firewalls?
+What are traditional packet filtering decisions based on?
+What type of packet filtering rule is set if an organization wants to let its internal clients connect to external servers but wants to prevent external clients from connecting to internal servers?
+What is an access control list (ACL)?
+What disadvantage of traditional packet filters do stateful packet filters address?
+How do stateful filters differ from traditional packet filters?
+How does a stateful packet filter track a TCP connection?
+What is a proxy?
+What is an application gateway?
+How are application gateways different than packet filters?
+How does a proxy (or specifically an application gateway) improve network security?
+Name one disadvantage of application gateways.
+
+--
+
+What is deep packet inspection?
+What is the purpose of an Intrusion Detection/Prevention System (IDS/IPS)?
+What is the difference between an IDS and an IPS?
+What types of attacks can an IDS detect?
+What is a DMZ?
+What advantages are gained by using multiple IDS sensors in a network?
+What is the basic idea behind a signature-based IDS/IPS?
+What are some limitations of a signature-based IDS/IPS?
+What is the difference between signature-based detection and anomaly-based detection?
+What is Snort?
+What is important about the community of Snort users?
+
+--
+
+What is a honeypot?
+How can honeypot help in preventing network attacks?
+What is the difference between a honeypot and a honeynet?
+
+
+</div>
+
+
+<div class="reading_assignments">
+
+Subsection "Network Address Translation (NAT)" in Section 4.4.2
+Introduction to Section 8.9 “Operational Security: Firewalls and IDS”
+Section 8.9.1 "Firewalls"
+Section 8.9.2 “Intrusion Detection Systems” 
+
+</div>

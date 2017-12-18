@@ -1,0 +1,66 @@
+<div class="questions">
+
+What are the top 10 vulnerabilities for 2013 as compiled by OWASP?
+What is an injection flaw?
+What is a XSS flaw?
+What is a CSRF attack?
+
+--
+
+What is a cross-site scripting (XSS) attack?
+What is a non-persistent XSS attack?
+What is persistent XSS attack?
+What is the difference between DOM based XSS, non-persistent XSS, and persistent XSS attacks?
+What are some ways that you can protect against XSS?
+Why do attackers URL Encode their malicious payload?
+What is session hijacking?
+What are some ways that you can protect against session hijacking?
+What is a Cross-site Request Forgery (CSRF) attack?
+How can CSRF attacks be prevented?
+What is the main difference between XSS attacks and CSRF attacks?
+
+--
+
+What is SQL injection?
+What are some things that an attacker could do using SQL injection?
+How can we prevent SQL injection?
+What is database privilege abuse?
+
+--
+
+What is cache poisoning?
+Why is DNS susceptible to cache poisoning?
+What is pharming?
+What information must an attacker have about a DNS request to successfully poison a DNS cache?
+What is Kaminsky’s cache poisoning attack?
+What is the short-term defense against cache poisoning attacks?  Why does this defense work?
+What could prevent outside attackers from launching a DNS cache poisoning attack?
+What is DNSSEC?
+What are the goals of DNSSEC?
+Does DNSSEC encrypt the DNS request/response?
+Why is it important that all servers in the chain from the root to local authoritative servers use DNSSEC?
+What do we mean by a chain of trust?
+What is the zone signing key (ZSK)?
+What is the key signing key (KSK)?
+What are the advantages of separating the functions of KSK and ZSK?
+
+--
+
+What are some of the attacks that can be launched against BGP?
+How can bogus route injection (or subprefix hijack) be used to attack BGP?  How was is done by Pakistan in 2008?
+What is a blackhole?
+What is a BGP spoofing attack?
+What are some possible defenses for BGP?
+
+--
+
+
+
+</div>
+
+
+<div class="reading_assignments">
+
+Textbook: "DNS Vulnerabilities" sidebar (pgs. 143-144 in 6th edition, pgs. 145-146 in 5th edition)
+
+</div>

@@ -1,46 +1,98 @@
+<div class="questions">
 
-    What is confidentiality?
-
-
-    What is message integrity?
-
-
-    What is authentication?
-    What is non-repudiation?
-    What is plaintext?
-    What is a cipher?
-    What is ciphertext?
-    What is a key?
-
+What is confidentiality?
+What is message integrity?
+What is authentication?
+What is non-repudiation?
+What is plaintext?
+What is a cipher?
+What is ciphertext?
+What is a key?
 
 --
 
+What information would an intruder need to perpetrate a ciphertext-only attack?  a known-plaintext attack?  a chosen-plaintext attack?
+What is the difference between a block cipher and a stream cipher?
+What are the two most-commonly used block ciphers?
+How long would it take to brute-force 128-bit AES with the same machine that could crack 56-bit DES in one second?
+What is the difference between the key size and the block size?  What are their purposes?
+Why is 3DES is stronger than DES?
+What key sizes can be used in AES?
+Which of the symmetric key ciphers is the US government standard?
+What are two public domain (non-patented) symmetric ciphers?
+Why might we need to mix randomness into the ciphertext?
+What is cipher block chaining (CBC)?
+What is the initialization vector (IV)?
 
-    What information would an intruder need to perpetrate a ciphertext-only attack?  a known-plaintext attack?  a chosen-plaintext attack?
-    What is the difference between a block cipher and a stream cipher?
-    What are the two most-commonly used block ciphers?
-    How long would it take to brute-force 128-bit AES with the same machine that could crack 56-bit DES in one second?
-    What is the difference between the key size and the block size?  What are their purposes?
-    Why is 3DES is stronger than DES?
-    What key sizes can be used in AES?
-    Which of the symmetric key ciphers is the US government standard?
-    What are two public domain (non-patented) symmetric ciphers?
-    Why might we need to mix randomness into the ciphertext?
-    What is cipher block chaining (CBC)?
-    What is the initialization vector (IV)?
+--
+
+What is the main difference between symmetric and asymmetric encryption?
+If asymmetric encryption is more secure than symmetric encryption, why do people still use symmetric encryption?
+How many keys are used in public-key cryptography, or asymmetric encryption?
+How can public-key cryptography be used for confidentiality?
+How can public-key cryptography be used for authentication?
+What is one way that public-key cryptography can be used in conjunction with symmetric key cryptography?
 
 --
 
-
-    What is the main difference between symmetric and asymmetric encryption?
-    If asymmetric encryption is more secure than symmetric encryption, why do people still use symmetric encryption?
-    How many keys are used in public-key cryptography, or asymmetric encryption?
-    How can public-key cryptography be used for confidentiality?
-    How can public-key cryptography be used for authentication?
-    What is one way that public-key cryptography can be used in conjunction with symmetric key cryptography?
-
+What is the purpose of the RSA algorithm?
+In the RSA algorithm, what is the private key and what is the public key?
+In RSA, is it feasible to determine the private key if you know the public key?  Why or why not?
+What does the size of the key in the RSA algorithm refer to?
+What is a digital signature?
+How can Alice digitally sign a message for Bob?
+How can Bob verify that the message is from Alice?
+How secure is RSA?
 
 --
+
+What is a cryptographic hash function?
+What are two widely-used hash algorithms?
+What is a message authentication code?
+What is the most popular standard for MAC (message authentication code)?
+What is a digital signature?
+How are digital signatures different than MACs?
+What is the goal of public key certification?
+What is a public key certificate?
+What is the public key infrastructure?
+What services do digital signatures provide?
+What is the function of a Certificate Authority (CA)?
+What is key revocation?
+
+--
+
+What is a stream cipher?
+When is a block cipher more suitable than a stream cipher?
+How does a stream cipher work?
+Which operation is faster, a block cipher or a stream cipher?
+What is the importance of the keystream?
+What key sizes can be used in RC4?
+What applications use RC4?
+What is the weakness of RC4 and why is it vulnerable?
+What is WEP?
+What cipher does WEP use?
+How can WEP be attacked?
+How is WPA different from WEP?
+What cipher does WPA use?
+What is TKIP?
+What are the weaknesses of WPA?
+What is WPA2?
+What cipher does WPA2 use?  Is it a stream cipher or a block cipher?
+What is WPA2 Enterprise?
+Put the wireless encryption techniques in order from weakest to strongest.
+
+</div>
+
+
+<div class="reading_assignments">
+
+Introduction to Chapter 8  - "Security in Computer Networks"
+Section 8.1 - "What is Network Security"
+Section 8.2 - "Principles of Cryptography"
+Section 8.3 - "Message Integrity and Digital Signatures"
+Section 8.8 - "Securing Wireless LANs"
+
+</div>
 
 
 

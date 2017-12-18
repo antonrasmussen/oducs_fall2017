@@ -1,0 +1,5 @@
+Reading Assignments
+
+Introduction to Section 8.6 – "Securing TCP Connections: SSL"
+Section 8.6.1 - "The Big Picture"
+Section 8.7 - "Network-Layer Security: IPsec and VPNs"

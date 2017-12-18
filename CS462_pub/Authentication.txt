@@ -1,0 +1,37 @@
+<div class="questions">
+
+What is end-point authentication?
+When is an authentication protocol typically run?  Before other application-level  protocols or after?  Explain.
+What is the security issue with using only a password (even an encrypted one) for authentication (as in ap3.0 and ap3.1 in the textbook)?
+What is a nonce?  How can it be used in an authentication protocol?
+
+--
+
+What is key distribution and why is it needed?
+What is the difference between a session key and a permanent key?
+What is a key distribution center?  What is its purpose?
+What is Kerberos?
+What are the three components of Kerberos and what is the purpose of each?
+What is a ticket in Kerberos?
+What is the two-step process for authentication in Kerberos?
+To authenticate to a particular service (e.g., email), what does a client need?
+What service issues the ticket-granting ticket (TGT)? 
+Once the user has been authenticated and has a TGT, how is the TGT used to gain access to an application server?
+What is the purpose of single sign-on?
+
+--
+
+What are four methods of generating strong passwords?
+Is it better to reuse your password or write it down?  (Hint - see the TED talk)
+What is the goal of two-factor authentication?
+
+
+</div>
+
+
+<div class="reading_assignments">
+
+Textbook Reading: Section 8.4 - "End-Point Authentication"
+
+
+</div>

@@ -1,0 +1,56 @@
+<div class="questions">
+
+What is a man-in-the-middle attack?
+What types of things can a man-in-the-middle do?
+What is the basic idea behind ARP poisoning?
+What can the Cain and Abel program do?
+
+--
+
+What is the goal of a DDoS attack?
+What is a Smurf attack?
+What is a SYN flood attack?
+Why are Smurf attacks no longer as effective as they used to be?
+What is the goal of port scanning?
+What is nmap?
+
+--
+
+What is phishing?
+How can you avoid phishing attacks?
+What is vishing?
+What is spear phishing?
+
+--
+
+What are the four security features that email users would find most desirable?
+What is one problem with using public key encryption for email messages?
+How can a session key be used to provide confidentiality?  Why is this preferred over just using public key encryption over the whole message?
+How can Alice and Bob use hash functions and digital signatures to ensure that a message sent from Alice actually came from Alice and hasn’t been altered?
+Explain how symmetric key cryptography, public key cryptography, hash functions, and digital signatures can be combined to provide email confidentiality, sender authentication, and message integrity.
+What is PGP?
+What is the web of trust?
+What are some of the main differences between PGP and S/MIME?
+Why is it often difficult to trace spam back to its original source?
+What is DKIM?
+What is SPF?
+How do DKIM and SPF use DNS?
+
+--
+
+
+
+--
+
+
+
+</div>
+
+
+<div class="reading_assignments">
+
+
+Review Section 1.6 - "Networks Under Attack"
+Section 8.5 - "Securing E-Mail"
+
+</div>
